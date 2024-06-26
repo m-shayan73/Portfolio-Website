@@ -1,4 +1,4 @@
-import LogoS from "../../assets/images/logo-s.png";
+import LogoS from "../../../public/images/logo-s.png";
 import { motion } from "framer-motion";
 
 const svgVariants = {
