@@ -7,11 +7,11 @@
         "url": "https://m-shayan73.github.io/MCKI-Book-Keeping-Website/",
         "stack": "HTML, CSS, Bootstrap",
         "images": [
-          "/images/project_imgs/bookkeeping/bookkeeping-1.png",
-          "/images/project_imgs/bookkeeping/bookkeeping-2.png",
-          "/images/project_imgs/bookkeeping/bookkeeping-3.png",
-          "/images/project_imgs/bookkeeping/bookkeeping-4.png",
-          "/images/project_imgs/bookkeeping/bookkeeping-5.png"
+          "/images/bookkeeping/bookkeeping-1.png",
+          "/images/bookkeeping/bookkeeping-2.png",
+          "/images/bookkeeping/bookkeeping-3.png",
+          "/images/bookkeeping/bookkeeping-4.png",
+          "/images/bookkeeping/bookkeeping-5.png"
         ]
       },
       {
@@ -19,15 +19,15 @@
         "url": "https://m-shayan73.github.io/Two-Off-Shore-Website/",
         "stack": "HTML, CSS, Bootstrap",
         "images": [
-          "/images/project_imgs/two_offshore/two_offshore-1.png",
-          "/images/project_imgs/two_offshore/two_offshore-2.png",
-          "/images/project_imgs/two_offshore/two_offshore-3.png",
-          "/images/project_imgs/two_offshore/two_offshore-4.png",
-          "/images/project_imgs/two_offshore/two_offshore-5.png",
-          "/images/project_imgs/two_offshore/two_offshore-6.png",
-          "/images/project_imgs/two_offshore/two_offshore-7.png",
-          "/images/project_imgs/two_offshore/two_offshore-8.png",
-          "/images/project_imgs/two_offshore/two_offshore-9.png"
+          "/images/two_offshore/two_offshore-1.png",
+          "/images/two_offshore/two_offshore-2.png",
+          "/images/two_offshore/two_offshore-3.png",
+          "/images/two_offshore/two_offshore-4.png",
+          "/images/two_offshore/two_offshore-5.png",
+          "/images/two_offshore/two_offshore-6.png",
+          "/images/two_offshore/two_offshore-7.png",
+          "/images/two_offshore/two_offshore-8.png",
+          "/images/two_offshore/two_offshore-9.png"
         ]
       },
       {
@@ -35,15 +35,15 @@
         "url": "https://m-shayan73.github.io/Pacific-Lion-Website/",
         "stack": "HTML, CSS, Bootstrap, Animations, JS",
         "images": [
-          "/images/project_imgs/pacific_lion/pacific_lion-1.png",
-          "/images/project_imgs/pacific_lion/pacific_lion-2.png",
-          "/images/project_imgs/pacific_lion/pacific_lion-3.png",
-          "/images/project_imgs/pacific_lion/pacific_lion-4.png",
-          "/images/project_imgs/pacific_lion/pacific_lion-5.png",
-          "/images/project_imgs/pacific_lion/pacific_lion-6.png",
-          "/images/project_imgs/pacific_lion/pacific_lion-7.png",
-          "/images/project_imgs/pacific_lion/pacific_lion-8.png",
-          "/images/project_imgs/pacific_lion/pacific_lion-9.png"
+          "/images/pacific_lion/pacific_lion-1.png",
+          "/images/pacific_lion/pacific_lion-2.png",
+          "/images/pacific_lion/pacific_lion-3.png",
+          "/images/pacific_lion/pacific_lion-4.png",
+          "/images/pacific_lion/pacific_lion-5.png",
+          "/images/pacific_lion/pacific_lion-6.png",
+          "/images/pacific_lion/pacific_lion-7.png",
+          "/images/pacific_lion/pacific_lion-8.png",
+          "/images/pacific_lion/pacific_lion-9.png"
         ]
       }
     ]
