@@ -1,7 +1,7 @@
 import "./pages.scss";
 import AnimatedLetters from "../components/Animations/AnimatedLetters";
 import AnimatedLogo from "../components/Animations/AnimatedLogo";
-import LogoS from "../assets/images/logo-s.png";
+import LogoS from "../../public/images/logo-s.png";
 
 const handleAnimationEnd = (e) => {
   e.target.style["opacity"] = `1`;

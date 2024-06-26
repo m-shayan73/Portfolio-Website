@@ -8,7 +8,7 @@ import {
   faUser,
 } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import LogoS from "../../assets/images/logo-s.png";
+import LogoS from "../../../public/images/logo-s.png";
 import { useState, useEffect } from "react";
 
 const navigateTo = (path) => {
