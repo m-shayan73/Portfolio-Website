@@ -26,11 +26,11 @@ const AddProject = ({ heading, type, stack, url, images }) => {
       <div className="page-text-container project-details w-60">
         <div className="project-heading">
           <h1>
-            <AnimatedLetters word={heading} start_delay={8} />
+            <AnimatedLetters word={heading} start_delay={2} />
             <br />
           </h1>
         </div>
-        <div className="project-subdetails mt-30" style={{ animation: `fadeIn 0.5s ease forwards`, animationDelay: `${0.1 * heading.length + 0.6}s`, opacity: 0 }}>
+        <div className="project-subdetails mt-30" style={{ animation: `fadeIn 0.5s ease forwards`, animationDelay: `${0.1 * heading.length + 0.1}s`, opacity: 0 }}>
           <h5>Project Type: {type}</h5>
           <h5>Tech Stack: {stack}</h5>
           <a href={url}><button className="flat-btn mt-20">VIEW HERE</button></a>
