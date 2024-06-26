@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap");
+
+nav {
+  width: 40px;
+  background: #181818;
+  padding: 0px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+
+  .nav-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+    #nav-logo-s {
+      width: 65%;
+    }
+
+    .logo-title {
+      font-family: "Roboto Mono", monospace;
+      font-size: 8px;
+      color: white;
+      margin: 5px 0;
+    }
+  }
+
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-size: 24px;
+    position: relative;
+
+    li {
+      cursor: pointer;
+      position: relative;
+      display: block;
+      transition: all 0.2s ease-out;
+
+      &:hover {
+        color: #ffd700;
+
+        svg {
+          transition: all 0.3s ease-out;
+          opacity: 0;
+        }
+
+        &:after {
+          opacity: 1;
+        }
+      }
+
+      &:after {
+        z-index: -1;
+        font-size: 6px;
+        letter-spacing: 1.5px;
+        position: absolute;
+        bottom: 25%;
+        opacity: 0;
+        text-align: center;
+        transition: all 0.2s ease-out;
+      }
+
+      &.nav-home:after {
+        content: "HOME";
+        left: 5%;
+      }
+
+      &.nav-about:after {
+        content: "ABOUT";
+        left: -15%;
+      }
+
+      &.nav-projects:after {
+        content: "PROJECTS";
+        left: -37%;
+      }
+
+      &.nav-contact:after {
+        content: "CONTACT";
+        left: -28%;
+      }
+
+      &.active {
+        svg {
+          color: #ffd700;
+        }
+      }
+    }
+  }
+
+  .nav-links.nav-profiles {
+    font-size: 18px;
+    gap: 4px;
+
+    li:hover svg {
+      opacity: 1;
+      color: #ffd700;
+    }
+  }
+}
